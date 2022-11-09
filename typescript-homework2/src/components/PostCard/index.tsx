@@ -1,7 +1,11 @@
 import styles from './PostCard.module.css';
 
-
-export default function PostCard({ post }) {
+interface PostCard {
+    post: string;
+    // id: number;
+    // titulo: string;
+}
+export const PostCard = ({post} : PostCard) => {
     return(
         <> 
   <div className={styles.post}>

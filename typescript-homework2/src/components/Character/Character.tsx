@@ -1,4 +1,7 @@
-export function Character(character) {
+interface Character {
+  character: string;
+}
+export const Character = ({character} : Character) => {
     return (
       <div className="text-center p-5">
         <h3>{character.name}</h3>

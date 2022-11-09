@@ -1,4 +1,5 @@
-import { CharacterList } from "components/Character/CharacterList";
+import { CharacterList } from "../../components/Character/CharacterList";
+
 function SobreMim () {
     return(
         <>  

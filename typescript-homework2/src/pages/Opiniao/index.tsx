@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form"; 
 import { yupResolver } from '@hookform/resolvers/yup';
-import * as yup from "yup";
+import * as yup  from "yup";
 
 const schema = yup.object({   
         nome: yup.string().required(),
@@ -8,7 +8,7 @@ const schema = yup.object({
         desc: yup.string().required()
     }).required();   
 
-function Opiniao () {
+    export const Opiniao: React.FC = () => {
     const { register, handleSubmit, formState: { errors } } = 
     useForm({
         resolver: yupResolver(schema)

@@ -1,8 +1,8 @@
 import styles from './Menu.module.css';
 import icon  from '../../assets/icon.jpeg';
-import { MenuLink } from'./components/MenuLink';
+import { MenuLink }   from '../MenuLink';
 
-export const Menu = () => {
+export const Menu: React.FC = () => {
     return(
         <header>
             <nav className={styles.navegacao}>
@@ -22,7 +22,6 @@ export const Menu = () => {
                     alt="icone"
                     />
             </div>
-
             </nav>
         </header>
     )
