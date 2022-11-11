@@ -1,6 +1,5 @@
 import styles from './MenuLink.module.css';
 import { Link, useLocation } from 'react-router-dom';
-
 interface MenuLink {
     children?: React.ReactNode;
     to?: React.ReactNode;

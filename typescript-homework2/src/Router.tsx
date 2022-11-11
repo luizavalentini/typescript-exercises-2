@@ -3,9 +3,8 @@ import { Menu } from "./components/Menu";
 import   Inicio from "./pages/Inicio";
 import SobreMim from "./pages/SobreMim";
 import Opiniao from "./pages/Opiniao";
-// import PaginaPadrao from "./components/PaginaPadrao";
 
-function AppRoutes() {
+export const Router: React.FC = () => {
   return (
     <>
     <BrowserRouter>
@@ -20,5 +19,4 @@ function AppRoutes() {
     </>
   );
 }
-
-export default AppRoutes;
+export default Routes;

@@ -1,7 +1,7 @@
 import styles from './Banner.module.css';
 import minhaFoto from '../../assets/minha-foto.webp';
 
-export const Menu: React.FC = () => {
+export const Banner: React.FC = () => {
     return(
         <>
         <div className={styles.banner}>
